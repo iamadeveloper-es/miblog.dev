@@ -1,0 +1,7 @@
+pre.shiki {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: scroll;
+}
