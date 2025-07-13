@@ -13,8 +13,8 @@ defineProps({
 <template>
   <div v-if="posts?.length" class="post-list">
     <UiBlogPostCard
-    v-for="(post, index) in posts"
-    :key="index"
+    v-for="post in posts"
+    :key="post.id"
     :post="post"
     />
   </div>

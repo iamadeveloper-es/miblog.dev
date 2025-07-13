@@ -12,7 +12,7 @@ import '@/assets/scss/main.scss'
 .app-wrapper{
   
   &__main{
-    min-height: calc(100vh - (var(--header-height, 0) + var(--footer-height, 0)));
+    min-height: calc(100dvh - (var(--header-height, 0) + var(--footer-height, 0)));
   }
 }
 </style>

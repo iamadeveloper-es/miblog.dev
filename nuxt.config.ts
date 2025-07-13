@@ -38,7 +38,7 @@ export default defineNuxtConfig({
     }
   },
   css: [
-    '@/assets/css/code-theme.css',
-    '@/assets/css/main.css'
+    '@/assets/css/bulma-no-dark-mode.css',
+    '@/assets/css/code-theme.css'
   ]
 })
